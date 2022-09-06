@@ -35,6 +35,7 @@ function like() {
     dogsNamesArr.length !== 0
   ) {
     document.getElementsByClassName("like")[0].classList.remove("hidden");
+    currentDog.hasBeenLiked = true;
     setTimeout(() => render(), 1500);
   }
 }
@@ -46,6 +47,7 @@ function dislike() {
     dogsNamesArr.length !== 0
   ) {
     document.getElementsByClassName("nope")[0].classList.remove("hidden");
+    currentDog.hasBeenSwiped = true;
     setTimeout(() => render(), 1500);
   }
 }
