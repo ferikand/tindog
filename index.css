@@ -35,8 +35,9 @@ main {
   background-position: center;
 
   height: 46.9375rem;
-  width: 100%;
-  min-width: 33.375rem;
+  width: 100vw;
+  max-width: 33.375rem;
+  min-width: 21.875rem;
 
   display: flex;
   flex-direction: column;
