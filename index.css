@@ -84,7 +84,6 @@ button {
   height: 5.74rem;
   border-radius: 50%;
   border: 0;
-  margin: 0.754rem;
 
   background: #ffffff;
   box-shadow: 0px 10px 20px #e9e9ea;
@@ -102,8 +101,10 @@ button:active {
   box-shadow: 0px 10px 20px #edd9df;
 }
 
-#dislike {
+#dislike,
+#like {
   background: url(images/icon-cross.png) no-repeat center;
+  margin: 0.754rem;
 }
 
 #like {
